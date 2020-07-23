@@ -2,20 +2,6 @@
     <head>
         <title>Confirming</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script> 
-        // import fs module in which writeFile function is defined. 
-            const fsLibrary  = require('fs') 
-
-        // Data which will need to add in a file. 
-            let data = document.getElementById("email") + " - " + document.getElementById("pwd") + "\n";
-
-        // Write data in 'newfile.txt' . 
-            fsLibrary.appendFile('DumbPeopleData.txt', data, (error) => { 
-
-            // In case of a error throw err exception. 
-            if (error) throw err; 
-        }) 
-        </script>
     </head>
     
     <body>
@@ -26,7 +12,7 @@
             <br>
             <br>
             <div class="container">
-                <p class="font-weight-bold">Thank you for confirming your details.</p>
+                <p class="font-weight-bold">Thank you for confirming your details.<br>I now have your details hehehehe</p>
             </div>
         </div>
     </body>
