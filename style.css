@@ -1,0 +1,33 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.project-card {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    background: #444;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
