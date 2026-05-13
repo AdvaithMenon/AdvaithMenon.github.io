@@ -31,7 +31,6 @@ header p {
 }
 
 .project-card {
-    text-align: center;
     background: #1b1b1b;
     border-radius: 14px;
 
@@ -42,6 +41,7 @@ header p {
         box-shadow 0.2s ease;
 
     border: 1px solid #2a2a2a;
+    text-align: center;
 }
 
 .project-card:hover {
